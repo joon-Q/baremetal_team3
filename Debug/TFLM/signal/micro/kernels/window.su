@@ -1,0 +1,4 @@
+../TFLM/signal/micro/kernels/window.cc:90:14:TfLiteStatus tflite::{anonymous}::WindowEval(TfLiteContext*, TfLiteNode*)	40	static
+../TFLM/signal/micro/kernels/window.cc:56:14:TfLiteStatus tflite::{anonymous}::WindowPrepare(TfLiteContext*, TfLiteNode*)	96	static
+../TFLM/signal/micro/kernels/window.cc:44:7:void* tflite::{anonymous}::WindowInit(TfLiteContext*, const char*, size_t)	32	static
+../TFLM/signal/micro/kernels/window.cc:116:19:TFLMRegistration* tflite::tflm_signal::Register_WINDOW()	24	static

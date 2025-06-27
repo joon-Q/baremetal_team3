@@ -1,0 +1,13 @@
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:53:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:58:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	36
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:340:6:void tflite::{anonymous}::EvalQuantizedPerChannel16x8(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, const OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	20
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:461:14:TfLiteStatus tflite::{anonymous}::EvalInt16x8(TfLiteContext*, TfLiteNode*)	4
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:303:6:void tflite::{anonymous}::EvalQuantizedPerChannelInt4(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, const OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	21
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:485:14:TfLiteStatus tflite::{anonymous}::EvalInt4(TfLiteContext*, TfLiteNode*)	4
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:267:6:void tflite::{anonymous}::EvalQuantizedPerChannel(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, const OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	21
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:437:14:TfLiteStatus tflite::{anonymous}::EvalInt8(TfLiteContext*, TfLiteNode*)	4
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:373:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	49
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:511:18:TFLMRegistration tflite::Register_DEPTHWISE_CONV_2D()	1
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:515:18:TFLMRegistration tflite::Register_DEPTHWISE_CONV_2D_INT8()	1
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:519:18:TFLMRegistration tflite::Register_DEPTHWISE_CONV_2D_INT16()	1
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:523:18:TFLMRegistration tflite::Register_DEPTHWISE_CONV_2D_INT4()	1

@@ -1,0 +1,11 @@
+../TFLM/tensorflow/lite/micro/test_helper_custom_ops.cc:64:7:static void* tflite::testing::PackerOp::Init(TfLiteContext*, const char*, size_t)	1
+../TFLM/tensorflow/lite/micro/test_helper_custom_ops.cc:71:6:static void tflite::testing::PackerOp::Free(TfLiteContext*, void*)	1
+../TFLM/tensorflow/lite/micro/test_helper_custom_ops.cc:73:14:static TfLiteStatus tflite::testing::PackerOp::Prepare(TfLiteContext*, TfLiteNode*)	1
+../TFLM/tensorflow/lite/micro/test_helper_custom_ops.cc:135:7:static void* tflite::testing::BroadcastAddOp::Init(TfLiteContext*, const char*, size_t)	1
+../TFLM/tensorflow/lite/micro/test_helper_custom_ops.cc:77:14:static TfLiteStatus tflite::testing::PackerOp::Invoke(TfLiteContext*, TfLiteNode*)	19
+../TFLM/tensorflow/lite/micro/test_helper_custom_ops.cc:147:14:static TfLiteStatus tflite::testing::BroadcastAddOp::Prepare(TfLiteContext*, TfLiteNode*)	16
+../TFLM/tensorflow/lite/micro/test_helper_custom_ops.cc:191:14:static TfLiteStatus tflite::testing::BroadcastAddOp::Invoke(TfLiteContext*, TfLiteNode*)	25
+../TFLM/tensorflow/lite/micro/test_helper_custom_ops.cc:51:25:static const TFLMRegistration* tflite::testing::PackerOp::getRegistration()	1
+../TFLM/tensorflow/lite/micro/test_helper_custom_ops.cc:55:19:static TFLMRegistration* tflite::testing::PackerOp::GetMutableRegistration()	1
+../TFLM/tensorflow/lite/micro/test_helper_custom_ops.cc:123:25:static const TFLMRegistration* tflite::testing::BroadcastAddOp::getRegistration()	1
+../TFLM/tensorflow/lite/micro/test_helper_custom_ops.cc:127:19:static TFLMRegistration* tflite::testing::BroadcastAddOp::GetMutableRegistration()	1

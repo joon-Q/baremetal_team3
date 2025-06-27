@@ -1,0 +1,8 @@
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/transpose.cc:26:14:TfLiteStatus tflite::{anonymous}::TransposeEvalInt8(TfLiteContext*, TfLiteNode*)	184	static
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/transpose.cc:104:18:TFLMRegistration tflite::Register_TRANSPOSE()	16	static
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/transpose.cc:107:18:TFLMRegistration tflite::Register_TRANSPOSE_INT8()	16	static
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/kernels/internal/reference/transpose.h:97:6:void tflite::reference_ops::transpose_internal::TransposeImpl(int, int, const int32_t*, const T*, const int*, T*, const int*, const int32_t*) [with T = long int]	64	static
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/kernels/internal/reference/transpose.h:176:6:void tflite::reference_ops::Transpose(const tflite::TransposeParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float; int N = 6]	176	static
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/kernels/internal/reference/transpose.h:97:6:void tflite::reference_ops::transpose_internal::TransposeImpl(int, int, const int32_t*, const T*, const int*, T*, const int*, const int32_t*) [with T = short int]	64	static
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/kernels/internal/reference/transpose.h:176:6:void tflite::reference_ops::Transpose(const tflite::TransposeParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = short int; int N = 6]	192	static
+../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/transpose.cc:57:14:TfLiteStatus tflite::{anonymous}::TransposeEval(TfLiteContext*, TfLiteNode*)	176	static
