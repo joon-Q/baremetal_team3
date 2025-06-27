@@ -1,4 +1,0 @@
-../TFLM/tensorflow/lite/micro/cortex_m_generic/debug_log.cc:37:6:void {anonymous}::InvokeDebugLogCallback(const char*)	0	static
-../TFLM/tensorflow/lite/micro/cortex_m_generic/debug_log.cc:45:6:void RegisterDebugLogCallback(void (*)(const char*))	0	static
-../TFLM/tensorflow/lite/micro/cortex_m_generic/debug_log.cc:49:6:void DebugLog(const char*, va_list)	264	static
-../TFLM/tensorflow/lite/micro/cortex_m_generic/debug_log.cc:61:5:int DebugVsnprintf(char*, size_t, const char*, va_list)	0	static

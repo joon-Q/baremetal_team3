@@ -1,4 +1,0 @@
-../TFLM/tensorflow/lite/micro/kernels/depthwise_conv_common.cc:42:17:tflite::DepthwiseParams tflite::DepthwiseConvParamsFloat(const TfLiteDepthwiseConvParams&, const OpDataConv&)	3
-../TFLM/tensorflow/lite/micro/kernels/depthwise_conv_common.cc:60:17:tflite::DepthwiseParams tflite::DepthwiseConvParamsQuantized(const TfLiteDepthwiseConvParams&, const OpDataConv&)	1
-../TFLM/tensorflow/lite/micro/kernels/depthwise_conv_common.cc:81:14:TfLiteStatus tflite::CalculateOpDataDepthwiseConv(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, int, int, int, int, int, int, TfLiteType, OpDataConv*)	17
-../TFLM/tensorflow/lite/micro/kernels/depthwise_conv_common.cc:139:14:TfLiteStatus tflite::DepthwiseConvPrepare(TfLiteContext*, TfLiteNode*)	27

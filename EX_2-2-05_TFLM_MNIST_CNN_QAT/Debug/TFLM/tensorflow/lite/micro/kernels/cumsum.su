@@ -1,3 +1,0 @@
-../TFLM/tensorflow/lite/micro/kernels/cumsum.cc:111:14:TfLiteStatus tflite::{anonymous}::CumSumEval(TfLiteContext*, TfLiteNode*)	168	static
-../TFLM/tensorflow/lite/micro/kernels/cumsum.cc:107:14:TfLiteStatus tflite::{anonymous}::CumSumPrepare(TfLiteContext*, TfLiteNode*)	96	static
-../TFLM/tensorflow/lite/micro/kernels/cumsum.cc:171:18:TFLMRegistration tflite::Register_CUMSUM()	16	static

@@ -1,2 +1,0 @@
-../TFLM/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c:47:1:depthwise_conv_s8_mult_4	24
-../TFLM/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c:273:21:arm_depthwise_conv_s8	26

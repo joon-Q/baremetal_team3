@@ -1,4 +1,0 @@
-../TFLM/tensorflow/lite/micro/micro_context.cc:42:15:TfLiteTensor* tflite::MicroContext::AllocateTempInputTensor(const TfLiteNode*, int)	4
-../TFLM/tensorflow/lite/micro/micro_context.cc:52:15:TfLiteTensor* tflite::MicroContext::AllocateTempOutputTensor(const TfLiteNode*, int)	4
-../TFLM/tensorflow/lite/micro/micro_context.cc:62:15:TfLiteTensor* tflite::MicroContext::AllocateTempIntermediateTensor(const TfLiteNode*, int)	4
-../TFLM/tensorflow/lite/micro/micro_context.cc:72:6:)	1

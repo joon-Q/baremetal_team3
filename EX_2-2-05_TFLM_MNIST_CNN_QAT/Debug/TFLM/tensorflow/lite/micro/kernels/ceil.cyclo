@@ -1,3 +1,0 @@
-../TFLM/tensorflow/lite/micro/kernels/ceil.cc:53:14:TfLiteStatus tflite::{anonymous}::CeilEval(TfLiteContext*, TfLiteNode*)	19
-../TFLM/tensorflow/lite/micro/kernels/ceil.cc:30:14:TfLiteStatus tflite::{anonymous}::CeilPrepare(TfLiteContext*, TfLiteNode*)	14
-../TFLM/tensorflow/lite/micro/kernels/ceil.cc:69:18:TFLMRegistration tflite::Register_CEIL()	1

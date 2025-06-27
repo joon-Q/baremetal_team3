@@ -1,2 +1,0 @@
-../TFLM/tensorflow/lite/micro/kernels/neg.cc:30:14:TfLiteStatus tflite::{anonymous}::NegEval(TfLiteContext*, TfLiteNode*)	19
-../TFLM/tensorflow/lite/micro/kernels/neg.cc:53:18:TFLMRegistration tflite::Register_NEG()	1

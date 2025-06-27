@@ -1,6 +1,0 @@
-../TFLM/tensorflow/lite/micro/kernels/activations.cc:33:7:void* tflite::{anonymous}::ReluInit(TfLiteContext*, const char*, size_t)	1
-../TFLM/tensorflow/lite/micro/kernels/activations.cc:80:7:void* tflite::{anonymous}::Relu6Init(TfLiteContext*, const char*, size_t)	1
-../TFLM/tensorflow/lite/micro/kernels/activations.cc:85:14:TfLiteStatus tflite::{anonymous}::Relu6Eval(TfLiteContext*, TfLiteNode*)	45
-../TFLM/tensorflow/lite/micro/kernels/activations.cc:38:14:TfLiteStatus tflite::{anonymous}::ReluEval(TfLiteContext*, TfLiteNode*)	41
-../TFLM/tensorflow/lite/micro/kernels/activations.cc:130:18:TFLMRegistration tflite::Register_RELU()	1
-../TFLM/tensorflow/lite/micro/kernels/activations.cc:134:18:TFLMRegistration tflite::Register_RELU6()	1

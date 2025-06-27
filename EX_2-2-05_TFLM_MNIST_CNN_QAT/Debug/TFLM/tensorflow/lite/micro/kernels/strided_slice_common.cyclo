@@ -1,3 +1,0 @@
-../TFLM/tensorflow/lite/micro/kernels/strided_slice_common.cc:68:28:tflite::StridedSliceParams tflite::{anonymous}::BuildStridedSliceParams(StridedSliceContext*)	24
-../TFLM/tensorflow/lite/micro/kernels/strided_slice_common.cc:129:7:void* tflite::StridedSliceInit(TfLiteContext*, const char*, size_t)	1
-../TFLM/tensorflow/lite/micro/kernels/strided_slice_common.cc:135:14:TfLiteStatus tflite::StridedSlicePrepare(TfLiteContext*, TfLiteNode*)	63

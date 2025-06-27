@@ -1,3 +1,0 @@
-C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/kernels/internal/strided_slice_logic.h:36:13:void tflite::strided_slice::StridedSlicePadIndices(tflite::StridedSliceParams*, int)	16	static
-../TFLM/tensorflow/lite/micro/kernels/strided_slice.cc:32:14:TfLiteStatus tflite::{anonymous}::StridedSliceEval(TfLiteContext*, TfLiteNode*)	1176	static
-../TFLM/tensorflow/lite/micro/kernels/strided_slice.cc:87:18:TFLMRegistration tflite::Register_STRIDED_SLICE()	16	static

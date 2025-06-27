@@ -1,4 +1,0 @@
-../TFLM/signal/micro/kernels/filter_bank.cc:126:14:TfLiteStatus tflite::{anonymous}::FilterBankEval(TfLiteContext*, TfLiteNode*)	7
-../TFLM/signal/micro/kernels/filter_bank.cc:74:14:TfLiteStatus tflite::{anonymous}::FilterBankPrepare(TfLiteContext*, TfLiteNode*)	26
-../TFLM/signal/micro/kernels/filter_bank.cc:49:7:void* tflite::{anonymous}::FilterBankInit(TfLiteContext*, const char*, size_t)	3
-../TFLM/signal/micro/kernels/filter_bank.cc:169:19:TFLMRegistration* tflite::tflm_signal::Register_FILTER_BANK()	3
