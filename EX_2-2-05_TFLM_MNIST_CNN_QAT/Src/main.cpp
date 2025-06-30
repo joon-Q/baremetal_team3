@@ -161,6 +161,18 @@ static void CPU_CACHE_Enable(void)
 	SCB_EnableDCache();
 }
 
+void LED_Control_By_Prediction(int prediction)
+{
+    if (prediction == 3) {
+        
+        HAL_GPIO_WritePin(PE3_GPIO_Port, PE3_Pin, GPIO_PIN_SET);
+    } else {
+        
+        HAL_GPIO_WritePin(PE3_GPIO_Port, PE3_Pin, GPIO_PIN_RESET);
+    }
+}
+
+
 void LED_Blink(uint32_t Hdelay, uint32_t Ldelay)
 {
 	HAL_GPIO_WritePin(PE3_GPIO_Port, PE3_Pin, GPIO_PIN_SET);
@@ -269,12 +281,12 @@ int main(void)
 		sprintf((char *)&text, "Camera id:0x%x   ", hcamera.device_id);
 		LCD_ShowString(0, 58, ST7735Ctx.Width, 16, 12, text);
 
-		LED_Blink(5, 500);
+		//LED_Blink(5, 500);
 
 		sprintf((char *)&text, "LongPress K1 to Run");
 		LCD_ShowString(0, 58, ST7735Ctx.Width, 16, 12, text);
 
-		LED_Blink(5, 500);
+		//LED_Blink(5, 500);
 	}
 
 	HAL_DCMI_Start_DMA(&hdcmi, DCMI_MODE_SNAPSHOT, (uint32_t)&pic, FrameWidth * FrameHeight * 2 / 4);
@@ -316,6 +328,7 @@ int main(void)
 
 			TfLiteTensor* output = interpreter.output(0);
 			int top_ind = Get_Top_Prediction(output->data.f, 10);
+			LED_Control_By_Prediction(top_ind);
 
 			sprintf((char *)&text, "%d %.1f%%\n\r", top_ind, output->data.f[top_ind] * 100.0);
 			UART_Send_String((char*)text);
