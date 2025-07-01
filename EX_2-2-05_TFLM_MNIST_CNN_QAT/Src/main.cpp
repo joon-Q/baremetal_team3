@@ -180,6 +180,18 @@ void LED_Blink(uint32_t Hdelay, uint32_t Ldelay)
 	HAL_GPIO_WritePin(PE3_GPIO_Port, PE3_Pin, GPIO_PIN_RESET);
 	HAL_Delay(Ldelay - 1);
 }
+
+void LED_Control_By_Prediction(int prediction)
+{
+    if (prediction == 3) {
+
+        HAL_GPIO_WritePin(PE3_GPIO_Port, PE3_Pin, GPIO_PIN_SET);
+    } else {
+
+        HAL_GPIO_WritePin(PE3_GPIO_Port, PE3_Pin, GPIO_PIN_RESET);
+    }
+}
+
 /* USER CODE END 0 */
 
 /**
