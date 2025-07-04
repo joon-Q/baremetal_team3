@@ -1,0 +1,5 @@
+../TFLM/signal/micro/kernels/delay.cc:135:6:void tflite::{anonymous}::DelayReset(TfLiteContext*, void*)	3
+../TFLM/signal/micro/kernels/delay.cc:111:14:TfLiteStatus tflite::{anonymous}::DelayEval(TfLiteContext*, TfLiteNode*)	4
+../TFLM/signal/micro/kernels/delay.cc:61:14:TfLiteStatus tflite::{anonymous}::DelayPrepare(TfLiteContext*, TfLiteNode*)	13
+../TFLM/signal/micro/kernels/delay.cc:47:7:void* tflite::{anonymous}::DelayInit(TfLiteContext*, const char*, size_t)	2
+../TFLM/signal/micro/kernels/delay.cc:147:19:TFLMRegistration* tflite::tflm_signal::Register_DELAY()	3

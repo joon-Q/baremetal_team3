@@ -1,0 +1,56 @@
+TFLM/tensorflow/lite/micro/arena_allocator/persistent_arena_buffer_allocator.o: \
+ ../TFLM/tensorflow/lite/micro/arena_allocator/persistent_arena_buffer_allocator.cc \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/micro/arena_allocator/persistent_arena_buffer_allocator.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/c/common.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/core/c/common.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/core/c/c_api_types.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/compiler/mlir/lite/core/c/tflite_types.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/micro/arena_allocator/ibuffer_allocator.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/c/c_api_types.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/micro/compatibility.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/micro/memory_helpers.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/schema/schema_generated.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/flatbuffers.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/array.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/base.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/stl_emulation.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/vector.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/buffer.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/buffer_ref.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/verifier.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/detached_buffer.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/allocator.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/default_allocator.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/flatbuffer_builder.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/string.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/struct.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/table.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/vector_downward.h \
+ C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/micro/micro_log.h
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/micro/arena_allocator/persistent_arena_buffer_allocator.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/c/common.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/core/c/common.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/core/c/c_api_types.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/compiler/mlir/lite/core/c/tflite_types.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/micro/arena_allocator/ibuffer_allocator.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/c/c_api_types.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/micro/compatibility.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/micro/memory_helpers.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/schema/schema_generated.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/flatbuffers.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/array.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/base.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/stl_emulation.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/vector.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/buffer.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/buffer_ref.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/verifier.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/detached_buffer.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/allocator.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/default_allocator.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/flatbuffer_builder.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/string.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/struct.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/table.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/third_party/flatbuffers/include/flatbuffers/vector_downward.h:
+C:/Baremetal_ODAI_STM32H7/EX_2-2-05_TFLM_MNIST_CNN_QAT/TFLM/tensorflow/lite/micro/micro_log.h:
