@@ -252,7 +252,7 @@ int main(void)
 
 	UART_Send_String((char*)"TFLITE_SCHEMA_VERSION OK!\n\r");
 
-	tflite::MicroMutableOpResolver<10> micro_op_resolver;
+	tflite::MicroMutableOpResolver<11> micro_op_resolver;
 
 	micro_op_resolver.AddConv2D();
 	micro_op_resolver.AddDequantize();
@@ -264,6 +264,7 @@ int main(void)
 	micro_op_resolver.AddPack();
 	micro_op_resolver.AddReshape();
 	micro_op_resolver.AddSoftmax();
+	micro_op_resolver.AddRelu();
 
 	tflite::MicroInterpreter interpreter(model, micro_op_resolver, tensor_arena, tensor_arena_size);
 	if(interpreter.AllocateTensors() != kTfLiteOk){
@@ -330,7 +331,7 @@ int main(void)
 			int time_end_invoke = HAL_GetTick();
 
 			TfLiteTensor* output = interpreter.output(0);
-			int top_ind = Get_Top_Prediction(output->data.f, 7);
+			int top_ind = Get_Top_Prediction(output->data.f, 8);
 			
 
 			sprintf((char *)&text, "%d %.1f%%\n\r", top_ind, output->data.f[top_ind] * 100.0);
@@ -464,14 +465,14 @@ int Get_Top_Prediction(const float* predictions, int num_categories) {
 	float max_score = predictions[0];
 	int guess = 0;
 
-	for (int category_index = 0; category_index < num_categories; category_index++) {
+	for (int category_index = 0; category_index <= num_categories; category_index++) {
 		const float category_score = predictions[category_index];
 		if (category_score > max_score) {
 			max_score = category_score;
 			guess = category_index;
 		}
 	}
-	if (max_score < 0.93) {
+	if (max_score < 0.95 || guess == 0) {
 		return -1;
 	}
 	return guess;
