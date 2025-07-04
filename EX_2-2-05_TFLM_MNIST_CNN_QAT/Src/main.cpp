@@ -114,6 +114,7 @@ void print_boxes_json(struct BoundingBox* boxes, int num_boxes);
 static void MPU_Config(void)
 {
 
+
 	MPU_Region_InitTypeDef MPU_InitStruct = {0};
 
 	/* Disables the MPU */
@@ -330,6 +331,7 @@ int main(void)
 
 			TfLiteTensor* output = interpreter.output(0);
 			int top_ind = Get_Top_Prediction(output->data.f, 7);
+			
 
 			sprintf((char *)&text, "%d %.1f%%\n\r", top_ind, output->data.f[top_ind] * 100.0);
 			UART_Send_String((char*)text);
@@ -468,6 +470,9 @@ int Get_Top_Prediction(const float* predictions, int num_categories) {
 			max_score = category_score;
 			guess = category_index;
 		}
+	}
+	if (max_score < 0.93) {
+		return -1;
 	}
 	return guess;
 }
