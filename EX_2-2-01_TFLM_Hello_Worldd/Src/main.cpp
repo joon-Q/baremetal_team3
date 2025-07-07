@@ -352,7 +352,7 @@ int main(void)
 		if (button && !inferring && !wifi_ready) {
 			inferring = true;
 			wifi_ready = true;
-			PIN1=0;
+
 			HAL_DCMI_Stop(&hdcmi);
 			DCMI_FrameIsReady = 0;
 
@@ -378,13 +378,21 @@ int main(void)
 	        TfLiteTensor* output = interpreter.output(0);
 	        top_ind = Get_Top_Prediction(output->data.f, 8);
 
+	        if(top_ind==9) {
+	        	wifi_ready=false;
+	        }
+	        else{
+	        	HAL_GPIO_WritePin(GPIOA,GPIO_PIN_7,GPIO_PIN_SET);
+	        	HAL_Delay(300);
+	        	HAL_GPIO_WritePin(GPIOA,GPIO_PIN_7,GPIO_PIN_RESET);
+	        }
 
 			sprintf((char *)&text, "%d %.1f%%\n\r", top_ind, output->data.f[top_ind] * 100.0);
 			UART_Send_String((char*)text);
 
 
 	        HAL_Delay(1000);
-
+	        PIN1=0;
 
 	        HAL_DCMI_Start_DMA(&hdcmi, DCMI_MODE_SNAPSHOT,
 	                           (uint32_t)&pic,
