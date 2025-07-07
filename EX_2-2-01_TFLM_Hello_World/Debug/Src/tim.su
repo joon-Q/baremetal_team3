@@ -1,0 +1,9 @@
+../Src/tim.c:32:6:MX_TIM1_Init	144	static
+../Src/tim.c:97:6:MX_TIM5_Init	40	static
+../Src/tim.c:140:6:MX_TIM16_Init	8	static
+../Src/tim.c:167:6:HAL_TIM_PWM_MspInit	8	static
+../Src/tim.c:183:6:HAL_TIM_Base_MspInit	24	static
+../Src/tim.c:218:6:HAL_TIM_MspPostInit	40	static
+../Src/tim.c:246:6:HAL_TIM_PWM_MspDeInit	0	static
+../Src/tim.c:262:6:HAL_TIM_Base_MspDeInit	8	static
+../Src/tim.c:296:6:HAL_TIM_PeriodElapsedCallback	0	static

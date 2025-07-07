@@ -1,0 +1,21 @@
+../TFLM/signal/micro/kernels/rfft.cc:112:14:TfLiteStatus tflite::{anonymous}::RfftEval(TfLiteContext*, TfLiteNode*) [with T = short int; void (* apply_func)(void*, const T*, Complex<T>*) = tflm_signal::RfftInt16Apply]	32	static
+../TFLM/signal/micro/kernels/rfft.cc:112:14:TfLiteStatus tflite::{anonymous}::RfftEval(TfLiteContext*, TfLiteNode*) [with T = long int; void (* apply_func)(void*, const T*, Complex<T>*) = tflm_signal::RfftInt32Apply]	32	static
+../TFLM/signal/micro/kernels/rfft.cc:112:14:TfLiteStatus tflite::{anonymous}::RfftEval(TfLiteContext*, TfLiteNode*) [with T = float; void (* apply_func)(void*, const T*, Complex<T>*) = tflm_signal::RfftFloatApply]	32	static
+../TFLM/signal/micro/kernels/rfft.cc:182:14:TfLiteStatus tflite::{anonymous}::RfftEvalAll(TfLiteContext*, TfLiteNode*)	0	static
+../TFLM/signal/micro/kernels/rfft.cc:77:14:TfLiteStatus tflite::{anonymous}::RfftPrepare(TfLiteContext*, TfLiteNode*) [with T = short int; TfLiteType TfLiteTypeEnum = kTfLiteInt16]	104	static
+../TFLM/signal/micro/kernels/rfft.cc:77:14:TfLiteStatus tflite::{anonymous}::RfftPrepare(TfLiteContext*, TfLiteNode*) [with T = long int; TfLiteType TfLiteTypeEnum = kTfLiteInt32]	104	static
+../TFLM/signal/micro/kernels/rfft.cc:77:14:TfLiteStatus tflite::{anonymous}::RfftPrepare(TfLiteContext*, TfLiteNode*) [with T = float; TfLiteType TfLiteTypeEnum = kTfLiteFloat32]	104	static
+../TFLM/signal/micro/kernels/rfft.cc:163:14:TfLiteStatus tflite::{anonymous}::RfftPrepareAll(TfLiteContext*, TfLiteNode*)	0	static
+C:/joon/baremetal_team3-flower102/baremetal_team3-flower102/EX_2-2-01_TFLM_Hello_World/TFLM/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:871:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = unsigned char]	0	static
+C:/joon/baremetal_team3-flower102/baremetal_team3-flower102/EX_2-2-01_TFLM_Hello_World/TFLM/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:871:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = short unsigned int]	0	static
+C:/joon/baremetal_team3-flower102/baremetal_team3-flower102/EX_2-2-01_TFLM_Hello_World/TFLM/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:871:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = long unsigned int]	0	static
+C:/joon/baremetal_team3-flower102/baremetal_team3-flower102/EX_2-2-01_TFLM_Hello_World/TFLM/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:871:26:int flexbuffers::KeyCompare(const void*, const void*) [with T = long long unsigned int]	0	static
+../TFLM/signal/micro/kernels/rfft.cc:57:7:void* tflite::{anonymous}::RfftInit(TfLiteContext*, const char*, size_t) [with T = short int; size_t (* get_needed_memory_func)(int32_t) = tflm_signal::RfftInt16GetNeededMemory; void* (* init_func)(int32_t, void*, size_t) = tflm_signal::RfftInt16Init]	40	static
+../TFLM/signal/micro/kernels/rfft.cc:57:7:void* tflite::{anonymous}::RfftInit(TfLiteContext*, const char*, size_t) [with T = long int; size_t (* get_needed_memory_func)(int32_t) = tflm_signal::RfftInt32GetNeededMemory; void* (* init_func)(int32_t, void*, size_t) = tflm_signal::RfftInt32Init]	40	static
+../TFLM/signal/micro/kernels/rfft.cc:57:7:void* tflite::{anonymous}::RfftInit(TfLiteContext*, const char*, size_t) [with T = float; size_t (* get_needed_memory_func)(int32_t) = tflm_signal::RfftFloatGetNeededMemory; void* (* init_func)(int32_t, void*, size_t) = tflm_signal::RfftFloatInit]	40	static
+C:/joon/baremetal_team3-flower102/baremetal_team3-flower102/EX_2-2-01_TFLM_Hello_World/TFLM/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:425:11:int64_t flexbuffers::Reference::AsInt64() const	32	static
+../TFLM/signal/micro/kernels/rfft.cc:140:7:void* tflite::{anonymous}::RfftInitAll(TfLiteContext*, const char*, size_t)	64	static
+../TFLM/signal/micro/kernels/rfft.cc:205:19:TFLMRegistration* tflite::tflm_signal::Register_RFFT()	24	static
+../TFLM/signal/micro/kernels/rfft.cc:211:19:TFLMRegistration* tflite::tflm_signal::Register_RFFT_FLOAT()	24	static
+../TFLM/signal/micro/kernels/rfft.cc:220:19:TFLMRegistration* tflite::tflm_signal::Register_RFFT_INT16()	24	static
+../TFLM/signal/micro/kernels/rfft.cc:229:19:TFLMRegistration* tflite::tflm_signal::Register_RFFT_INT32()	24	static

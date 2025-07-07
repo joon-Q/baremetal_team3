@@ -1,0 +1,4 @@
+C:/joon/baremetal_team3-flower102/baremetal_team3-flower102/EX_2-2-01_TFLM_Hello_World/TFLM/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.h:28:3:tflite::MicroErrorReporter::~MicroErrorReporter()	0	static
+../TFLM/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.cc:38:5:virtual int tflite::MicroErrorReporter::Report(const char*, va_list)	8	static
+C:/joon/baremetal_team3-flower102/baremetal_team3-flower102/EX_2-2-01_TFLM_Hello_World/TFLM/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.h:28:3:virtual tflite::MicroErrorReporter::~MicroErrorReporter()	8	static
+../TFLM/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.cc:31:16:tflite::ErrorReporter* tflite::GetMicroErrorReporter()	0	static
