@@ -1,0 +1,6 @@
+../TFLM/tensorflow/lite/micro/kernels/mul_common.cc:33:7:void* tflite::MulInit(TfLiteContext*, const char*, size_t)	1
+../TFLM/tensorflow/lite/micro/kernels/mul_common.cc:38:14:TfLiteStatus tflite::CalculateOpDataMul(TfLiteContext*, TfLiteNode*, TfLiteMulParams*, OpDataMul*)	23
+../TFLM/tensorflow/lite/micro/kernels/mul_common.cc:92:14:TfLiteStatus tflite::MulPrepare(TfLiteContext*, TfLiteNode*)	2
+C:/Baremetal_ODAI_STM32H7/EX_2-2-01_TFLM_Hello_Worldd/TFLM/tensorflow/lite/kernels/internal/common.h:1083:22:void tflite::CopyDimsToDesc(const RuntimeShape&, NdArrayDesc<N>*) [with int N = 6]	1
+../TFLM/tensorflow/lite/micro/kernels/mul_common.cc:182:6:void tflite::EvalMulFloatReference(TfLiteContext*, TfLiteNode*, TfLiteMulParams*, const OpDataMul*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	405
+../TFLM/tensorflow/lite/micro/kernels/mul_common.cc:102:14:TfLiteStatus tflite::EvalMulQuantizedReference(TfLiteContext*, TfLiteNode*, const OpDataMul*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	601

@@ -1,8 +1,0 @@
-../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:172:18:TFLMRegistration tflite::Register_MUL()	1
-../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:176:18:TFLMRegistration tflite::Register_MUL_INT8()	1
-../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:180:18:TFLMRegistration tflite::Register_MUL_INT16()	1
-C:/joon/baremetal_team3-flower102/baremetal_team3-flower102/EX_2-2-01_TFLM_Hello_World/TFLM/tensorflow/lite/kernels/internal/common.h:1083:22:void tflite::CopyDimsToDesc(const RuntimeShape&, NdArrayDesc<N>*) [with int N = 6]	1
-../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:32:6:void tflite::{anonymous}::EvalQuantized(TfLiteContext*, TfLiteNode*, const tflite::OpDataMul*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	283
-../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:154:14:TfLiteStatus tflite::EvalInt16(TfLiteContext*, TfLiteNode*)	3
-../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:136:14:TfLiteStatus tflite::EvalInt8(TfLiteContext*, TfLiteNode*)	3
-../TFLM/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc:99:14:TfLiteStatus tflite::Eval(TfLiteContext*, TfLiteNode*)	5

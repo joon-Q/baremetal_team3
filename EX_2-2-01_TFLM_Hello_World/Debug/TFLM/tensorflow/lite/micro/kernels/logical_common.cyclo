@@ -1,4 +1,0 @@
-../TFLM/tensorflow/lite/micro/kernels/logical_common.cc:59:6:bool tflite::LogicalOr(bool, bool)	1
-../TFLM/tensorflow/lite/micro/kernels/logical_common.cc:61:6:bool tflite::LogicalAnd(bool, bool)	1
-C:/joon/baremetal_team3-flower102/baremetal_team3-flower102/EX_2-2-01_TFLM_Hello_World/TFLM/tensorflow/lite/kernels/internal/common.h:1083:22:void tflite::CopyDimsToDesc(const RuntimeShape&, NdArrayDesc<N>*) [with int N = 4]	1
-../TFLM/tensorflow/lite/micro/kernels/logical_common.cc:29:14:TfLiteStatus tflite::LogicalImpl(TfLiteContext*, TfLiteNode*, bool (*)(bool, bool))	87
